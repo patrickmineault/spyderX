@@ -89,6 +89,7 @@ def generate_lut(resolution=16):
 
 def xyz_to_lms(xyz):
     # XYZ to LMS conversion matrix (Hunt-Pointer-Estevez)
+    # https://en.wikipedia.org/wiki/LMS_color_space
     xyz_to_lms_matrix = np.array([
         [0.4002, 0.7076, -0.0808],
         [-0.2263, 1.1653, 0.0457],
