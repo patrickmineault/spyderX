@@ -1,10 +1,5 @@
 /.DS_Store
 /.vscode
-/Create Night Shift Sims.ipynb
-/Fit LMS functions.ipynb
 /__pycache__
-/generate_lut.py
-/night_shift_12.npy
-/rgb_to_lms_lut_basic.npy
-/rgb_to_lms_lut_nightshift.npy
-/standard_12.npy
+/*.ipynb
+/*.npy
